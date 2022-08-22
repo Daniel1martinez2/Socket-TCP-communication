@@ -5,7 +5,7 @@ import pickle
 HEADER_SIZE = 10
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(("192.168.0.15", 8080))
+s.bind(("192.168.0.15", 5000))
 s.listen(5)
 
 while True:
